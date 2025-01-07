@@ -1,0 +1,54 @@
+/* Diferencia entre clase e ID:
+   - Clase (.) se usa para múltiples elementos con un estilo común.
+   - ID (#) es único para un elemento específico. */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header, footer {
+    background-color: #f4b400;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.paso {
+    background-color: #fff3cd;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+}
+
+#imagen-tortilla {
+    display: block;
+    margin: 1rem auto;
+    max-width: 100%;
+    border: 2px solid #f4b400;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #f4b400;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #d99500;
+}
+
+dialog {
+    border: 1px solid #333;
+    padding: 1rem;
+    border-radius: 10px;
+}
